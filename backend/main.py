@@ -34,8 +34,9 @@ async def upload_video(video: UploadFile = File(...)):
     with open(filepath, "wb") as buffer:
         shutil.copyfileobj(video.file, buffer)
         
-    # pred_path = utils.predict_video(filepath)
+    pred_path = utils.predict_video(filepath)
     
     print(f"/videos/{filename}")
+    print(pred_path)
 
-    return {"videoUrl": f"/videos/{filename}"}
+    return {"videoUrl": pred_path}

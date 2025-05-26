@@ -54,4 +54,5 @@ def predict_video(input_path):
         os.remove(input_path)
 
     print("✅ Prediction done. Output saved to:", final_output)
+    
     return public_url
