@@ -3,3 +3,4 @@ uvicorn[standard]
 opencv-python
 ultralytics
 imageio-ffmpeg
+python-multipart
