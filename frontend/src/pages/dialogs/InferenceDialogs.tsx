@@ -12,6 +12,7 @@ import { useState, type Dispatch, type SetStateAction } from "react";
 import { cn } from "../../lib/utils";
 import { Button } from "@/components/ui/button";
 import axios from "axios";
+import { Label } from "@/components/ui/label";
 
 export const LocalInference = ({
   isLoading,
@@ -65,6 +66,12 @@ export const LocalInference = ({
           <DialogDescription>
             Inferencing on video using YOLOv8 Medium Model Trained On Militray
             Dataset....
+            <Label className="flex items-center">
+              <span className="font-bold">Desclaimer:</span>
+              This project is conceptual and strictly educational. It is not
+              intended for real-life military application without proper ethical
+              evaluation and government oversight.
+            </Label>
           </DialogDescription>
         </DialogHeader>
         {isLoading ? (
