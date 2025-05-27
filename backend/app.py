@@ -22,7 +22,9 @@ async def lifespan(app: FastAPI):
     
     yield 
     
-    print("Server shutting down...")
+    if VIDEO_DIR.exists():
+        shutil.rmtree(VIDEO_DIR)
+    print("Cleaned video folder on shutdown")
 
 app = FastAPI(lifespan=lifespan)
 
