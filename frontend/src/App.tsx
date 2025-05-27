@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const App = () => {
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
@@ -24,7 +24,7 @@ const App = () => {
       }
 
       const data = await response.json();
-      setVideoUrl("http://localhost:8000" + data.videoUrl);
+      setVideoUrl(data.videoUrl);
     } catch (err) {
       alert("Error uploading video");
       console.error(err);
@@ -49,14 +49,14 @@ const App = () => {
       {videoUrl && (
         <div className="mt-6">
           <video
-            src={videoUrl}
+            src={"http://localhost:8000/video/" + videoUrl}
             controls
             width="640"
             className="rounded-xl shadow-lg"
           />
           <div className="mt-4">
             <a
-              href={videoUrl}
+              href={"http://localhost:8000/video/" + videoUrl}
               download
               className="text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg"
             >
