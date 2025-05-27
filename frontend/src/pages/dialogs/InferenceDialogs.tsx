@@ -74,7 +74,7 @@ export const LocalInference = ({
         ) : (
           <video
             className="h-full w-full flex-grow"
-            src={"http://localhost:8000/video/" + videoUrl}
+            src={`${apiBaseUrl}/video/` + videoUrl}
             controls
           ></video>
         )}
