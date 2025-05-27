@@ -4,7 +4,7 @@
 
 # Project Deliverables Summary
 1. Working Prototype :
-    - [x] Electron
+    - [ ] Electron - Will post on other repo
     - [x] Web Deployed - [Render](https://aerialdroneobjectdetectionproject.onrender.com/) 512MB RAM on Render , CPU inference , will not run on long videos
 2. Report : [Project Report](https://docs.google.com/document/d/1pTKqcTS0gwnLMfR6LtQVhf3tc2eR6zcd4SbvUdzQlAA/edit?usp=sharing)
 
