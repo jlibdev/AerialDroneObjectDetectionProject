@@ -87,7 +87,11 @@ export const LocalInference = ({
         )}
         <DialogFooter>
           <DialogClose>
-            <Button type="button" className="p-5">
+            <Button
+              type="button"
+              className="p-5"
+              onClick={() => setIsLoading(false)}
+            >
               Done
             </Button>
           </DialogClose>
