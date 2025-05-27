@@ -6,7 +6,7 @@
 1. Working Prototype :
     - [ ] Electron - Will post on other repo
     - [x] Web Deployed - [Render](https://aerialdroneobjectdetectionproject.onrender.com/) 512MB RAM on Render , CPU inference , will not run on long videos
-    - [ ] Google Colab - (https://colab.research.google.com/drive/1R_2fwjSQjpwR9k66QVFUqtVJzTt6Um9h?usp=sharing)
+    - [x] Google Colab - [Collab Train + Inference](https://colab.research.google.com/drive/1R_2fwjSQjpwR9k66QVFUqtVJzTt6Um9h?usp=sharing)
 2. Report : [Project Report](https://docs.google.com/document/d/1pTKqcTS0gwnLMfR6LtQVhf3tc2eR6zcd4SbvUdzQlAA/edit?usp=sharing)
 
 
