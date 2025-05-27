@@ -46,7 +46,7 @@ Integrate the trained model with a video stream (e.g., drone footage simulation)
 Draw bounding boxes with class labels (e.g., “Soldier”, “Civilian”).
 
 
-- [ ] 4. Testing and Evaluation
+- [x] 4. Testing and Evaluation
 Test the model on unseen images and video feeds.
 Assess accuracy in various lighting and altitude conditions.
 Discuss potential real-world use and ethical considerations.
@@ -58,8 +58,8 @@ Python, YOLOv5 / YOLOv8 or Other models, Roboflow, OpenCV, PyTorch or TensorFlow
 
 
 ## Expected Output:
-- [ ] A working prototype capable of detecting and classifying individuals in aerial footage. (Github, Google Drive)
-- [ ] A report or presentation detailing the model design, performance, and recommendations for real-world deployment.
+- [x] A working prototype capable of detecting and classifying individuals in aerial footage. (Github, Google Drive)
+- [x] A report or presentation detailing the model design, performance, and recommendations for real-world deployment.
 
 
 ## Ethical Note:
