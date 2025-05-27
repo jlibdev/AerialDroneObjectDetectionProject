@@ -101,13 +101,6 @@ async def upload_video(video: UploadFile = File(...)):
 
     return {"videoUrl": compressed_output.name}
 
-@app.get("/video/pred/{filename}")
-async def get_video(filename: str, request: Request):
-    
-    url = predict_video(filename)
-    
-    return {"videoUrl": url}
-
 @app.get("/video/{filename}")
 async def get_video(filename: str, request: Request):
     video_path = VIDEO_DIR / filename
