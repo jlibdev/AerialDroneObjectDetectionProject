@@ -25,7 +25,7 @@ export const LocalInference = ({
   videoFile: File | null;
 }) => {
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
-
+  const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
   const handleInfer = async () => {
     if (!videoFile) return;
 
@@ -34,15 +34,11 @@ export const LocalInference = ({
 
     try {
       setIsLoading(true);
-      const response = await axios.post(
-        "http://localhost:8000/upload",
-        formData,
-        {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        }
-      );
+      const response = await axios.post(`${apiBaseUrl}/upload`, formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
 
       setVideoUrl(response.data.videoUrl);
     } catch (err) {

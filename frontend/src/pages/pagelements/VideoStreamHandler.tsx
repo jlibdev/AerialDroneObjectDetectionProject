@@ -5,7 +5,7 @@ import { useState, type ChangeEvent } from "react";
 import { LocalInference } from "../dialogs/InferenceDialogs";
 
 const VideoStreamHandler = () => {
-  const [ytURL, setytURL] = useState<string | null>(null);
+  // const [ytURL, setytURL] = useState<string | null>(null);
   const [videoFile, setVideoFile] = useState<File | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
