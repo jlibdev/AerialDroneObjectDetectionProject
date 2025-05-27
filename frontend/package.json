@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
     "start-frontend": "npm run dev",
-    "start-backend": "cd ../backend && uvicorn app:app --reload"
+    "start-backend": "cd ../backend && uvicorn app:app --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",
