@@ -43,7 +43,7 @@ Selected Pretrained Model : For this project, a pretrained **YOLOv8m** model was
 Evaluation can be found in the Google Colab notebook . [![Open Training Code In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1R_2fwjSQjpwR9k66QVFUqtVJzTt6Um9h?usp=sharing)
 
 
-- [ ] 3. System Development
+- [x] 3. System Development
 Integrate the trained model with a video stream (e.g., drone footage simulation).
 Draw bounding boxes with class labels (e.g., “Soldier”, “Civilian”).
 
