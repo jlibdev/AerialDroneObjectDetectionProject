@@ -7,7 +7,7 @@
     - [ ] ❌ Electron - ~~Will post on other repo~~
     - [x] Web Deployed - [Render - This Repo](https://aerialdroneobjectdetectionproject.onrender.com/) 512MB RAM on Render , CPU inference , will not run on long videos
     - [x] Google Colab - [Collab Train + Inference](https://colab.research.google.com/drive/1R_2fwjSQjpwR9k66QVFUqtVJzTt6Um9h?usp=sharing)
-    - [ ] ❌ AirSim (Unreal) - Scratched - Di kaya laptop Unreal Engine 5 TT
+    - [ ] ❌ AirSim (Unreal)
     - [ ] Pyside6 - Will update soon
 2. Report : [Project Report](https://docs.google.com/document/d/1pTKqcTS0gwnLMfR6LtQVhf3tc2eR6zcd4SbvUdzQlAA/edit?usp=sharing)
 
